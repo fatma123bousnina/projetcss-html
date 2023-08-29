@@ -1,18 +1,88 @@
-.navbar {
-    display: inline-block;
-    /* Add more styles as needed */
-  }
-   h1{
-    color:rgb(127, 25, 179);
-     size:15px;
-      margin-left:15%;
-       margin-right:10%;
-         }
-        th
-        {color: red;
-          size: 15px;
-          margin-left: 20%;
-          margin-right: 15%;
-          
+/* Reset default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-        }
+/* Global styles */
+body {
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  background-color: #f6f8fb;
+  color: #333;
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  color: #1f2b43;
+}
+
+h2 {
+  font-size: 28px;
+  margin: 20px 0;
+  color: #1f2b43;
+}
+
+/* Header styles */
+.header {
+  background-color: #2a3e5e;
+  color: white;
+  padding: 20px 0;
+}
+
+.header h1 {
+  font-size: 36px;
+  text-align: center;
+}
+
+/* Table styles */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: white;
+  margin-bottom: 20px;
+}
+
+th, td {
+  padding: 15px;
+  border: 1px solid #e0e0e0;
+  text-align: left;
+}
+
+th {
+  background-color: #f0f0f0;
+  font-weight: bold;
+}
+
+td.x {
+  background-color: #f6f6f6;
+}
+
+tfoot td {
+  font-weight: bold;
+  color: red;
+  background-color: green;
+}
+
+/* Button styles */
+.button {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
